@@ -1,6 +1,6 @@
 require "rails"
 
-module K3
+module K3cms
   module Authorization
     class SpreeAuthorizationEngine < Rails::Engine
     end

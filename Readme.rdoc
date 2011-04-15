@@ -1,8 +1,8 @@
-= K3 Spree Authorization
+= K3cms Spree Authorization
 
-This gem works with the k3_authorization gem to provide an ultra-simple
+This gem works with the k3cms_authorization gem to provide an ultra-simple
 authorization for Spree.
 
 It uses the authorization scheme already provided by Spree, so any Spree user
-that is an admin user in Spree will have FULL permissions in K3 CMS.  Non-admin
+that is an admin user in Spree will have FULL permissions in K3cms.  Non-admin
 users and non-logged-in user will have only guest permissions.
