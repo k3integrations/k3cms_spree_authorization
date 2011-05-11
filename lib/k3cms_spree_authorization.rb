@@ -1,1 +1,1 @@
-require 'k3cms/spree_authorization/engine'
+require 'k3cms/authorization/spree/railtie'

@@ -2,7 +2,9 @@ require "rails"
 
 module K3cms
   module Authorization
-    class SpreeAuthorizationEngine < Rails::Engine
+    module Spree
+      class Railtie < Rails::Engine
+      end
     end
   end
 end

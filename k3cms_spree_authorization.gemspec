@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "k3cms/spree_authorization/version"
+require "k3cms/authorization/spree/version"
 
 Gem::Specification.new do |s|
   s.name          = 'k3cms_spree_authorization'
@@ -23,7 +23,7 @@ users and non-logged-in user will have only guest permissions.
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  s.version       = K3cms::SpreeAuthorization::Version
+  s.version       = K3cms::Authorization::Spree::Version
   s.platform      = Gem::Platform::RUBY
   s.authors       = `git shortlog --summary --numbered         | awk '{print $2, $3    }'`.split("\n")
   s.email         = `git shortlog --summary --numbered --email | awk '{print $2, $3, $4}'`.split("\n")
